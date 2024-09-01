@@ -1,0 +1,37 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    val letter:Char
+    letter='A'
+    val x="lpu z1 \n..."
+    println("Hello, world!!!")
+    var a="""hii yunesh kumar 
+    how are you"""
+    println(a)
+    println(x)
+    println(letter)
+    val A:Boolean =true
+    println(A)
+}
+
+
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    val numbers =arrayOf(1,2,3,4,5)
+//     for(var i=0;i<numbers.length;i++){
+//         println(numbers[i])
+//     }
+val word: Array<String> =arrayOf("kotlin","java","python")
+val squares=Array(5){i->i*i}
+val size=numbers.size
+    println(size)
+    println(numbers.isEmpty())
+    println(numbers.isFull)
+}
+
+

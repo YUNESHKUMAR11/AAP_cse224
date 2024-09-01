@@ -1,0 +1,74 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main(args:Array<String>) {
+    var a: Int
+     a=20
+    val b=40
+    var c:Int
+    c=a+b
+    println("---------"+c+"----------------")
+    println("Hello, world!!!")
+}
+
+
+
+
+
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main(args:Array<String>) {
+    var a: Int
+     a=20
+    val b=40
+    var c:Int
+//     c=(a>b)?a:b
+    var A=30
+    println("---------"+(a+A)+"----------------")
+    println("Hello, world!!!")
+    var _a=34
+    print(_a)
+    var String=578,68
+    print(String)
+}
+
+
+
+
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+// class Person
+// {
+//     var name: String ="john Doe"
+//     val age : Int =30
+//     fun displayInfo(){
+//         println("Name : $name, Age : $age")
+//     }
+// }
+// fun main()
+// {
+//     val person =Person()
+//     person.displayInfo();
+// }
+// fun greet(){
+//     val messsage : String="Hello, Kotlin!"
+//     println(message)
+// }
+// fun main() {
+//     println("Hello, world!!!")
+//     var age : Int
+//     age=39
+//     print(age)
+    
+// }
+fun main(){
+    val a=10
+    var b=20
+    var result="sum of $a and $c is ${a+b}"
+    println(result)
+}
